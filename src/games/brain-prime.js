@@ -12,7 +12,7 @@ const isPrime = (num) => {
   return true;
 };
 
-const description = '"yes" if given number is prime. Otherwise answer "no"';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const makeGameData = () => {
   const question = randomNumber();
   const answer = isPrime(question) ? 'yes' : 'no';
